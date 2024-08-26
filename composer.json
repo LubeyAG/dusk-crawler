@@ -26,11 +26,11 @@
     },
     "require": {
         "php": ">=8.0",
-        "laravel/dusk": "^5.11 || ^6.0",
-        "orchestra/canvas-core": "^4.7 || ^5.0 || ^6.0 || ^7.0 || ^8.0",
-        "orchestra/dusk-updater": "^1.2",
+        "laravel/dusk": "^5.11 || ^6.0 || ^7.0 || ^8.0",
+        "orchestra/canvas-core": "^4.7 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "orchestra/dusk-updater": "^1.2 || ^2.0",
         "react/promise": "^2.7",
-        "symfony/dom-crawler": "^4.3 || ^5.0"
+        "symfony/dom-crawler": "^4.3 || ^5.0 || ^6.0 || ^7.0"
     },
     "require-dev": {
         "orchestra/canvas": "^4.5 || ^5.0 || ^6.0 || ^7.0",
