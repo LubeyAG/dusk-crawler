@@ -160,8 +160,8 @@ class Dusk
     /**
      * Set the initial browser window size.
      *
-     * @param $width the browser width in pixels
-     * @param $height the browser height in pixels
+     * @param $width int the browser width in pixels
+     * @param $height int the browser height in pixels
      *
      * @return $this
      */
@@ -173,7 +173,7 @@ class Dusk
     /**
      * Set the user agent.
      *
-     * @param $useragent the user agent to use
+     * @param $useragent int the user agent to use
      *
      * @return $this
      */
@@ -190,7 +190,7 @@ class Dusk
     protected function addArgument(string $argument)
     {
         if ($this->arguments->contains($argument)) {
-            return;
+            return $this;
         }
 
         $this->arguments->push($argument);

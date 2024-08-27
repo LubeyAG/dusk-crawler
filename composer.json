@@ -19,32 +19,15 @@
             "DuskCrawler\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "DuskCrawler\\Tests\\": "tests"
-        }
-    },
     "require": {
         "php": ">=8.0",
-        "laravel/dusk": "^5.11 || ^6.0 || ^7.0 || ^8.0",
-        "orchestra/canvas-core": "^4.7 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0",
+        "laravel/dusk": "^7.13",
         "orchestra/dusk-updater": "^1.2 || ^2.0",
         "react/promise": "^2.7",
         "symfony/dom-crawler": "^4.3 || ^5.0 || ^6.0 || ^7.0"
     },
-    "require-dev": {
-        "orchestra/canvas": "^4.5 || ^5.0 || ^6.0 || ^7.0",
-        "orchestra/testbench": "^4.5 || ^5.0 || ^6.0 || ^7.0"
-    },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "DuskCrawler\\DuskServiceProvider"
-            ]
-        }
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
