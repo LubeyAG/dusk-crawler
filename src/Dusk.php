@@ -60,7 +60,7 @@ class Dusk
      */
     public function start()
     {
-        static::startChromeDriver();
+       // static::startChromeDriver();
 
         return $this;
     }
